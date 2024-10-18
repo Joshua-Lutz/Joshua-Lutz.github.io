@@ -1,0 +1,54 @@
+/* General Body Styling */
+/* Sets a light purple background color, uses Arial font for the text, and applies a dark purple color for the text. */
+body {
+    background-color: #f3e5f5; 
+    font-family: Arial, sans-serif; 
+    color: #4a235a; 
+}
+
+/* Header Styling */
+/* Adds light purple color, padding, and centers the content inside the header. This comment was made by ChatGPT */
+header {
+    background-color: #d7bde2; 
+    padding: 20px; 
+    text-align: center;
+}
+
+/* Flexbox container for the nav links */
+/* Creates a flex container to hold the navigation links and allows them to wrap */
+.flex-container {
+    display: flex; /* Activates flexbox */ /* This comment was made by ChatGPT */
+    flex-wrap: wrap; 
+    background-color: #d7bde2; 
+    justify-content: center; 
+}
+
+/* Flexbox items (nav links) */
+/* Styles for individual navigation links displayed as flex items. This comment was made by ChatGPT */
+.flex-items {
+    background-color: #f1e5f9; 
+    color: #4a235a; 
+    width: 100px; 
+    margin: 10px; 
+    text-align: center; 
+    line-height: 75px; 
+    font-size: 20px; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+
+
+/* Active class for navigation links */
+/* Styles for the active navigation item. This comment was made by ChatGPT */
+.flex-items.active {
+    background-color: #4a235a; 
+    color: #ffffff; 
+    font-weight: bold; 
+}
+/*Styles footer, centers it, and adds a background color */
+footer {
+    background-color: #d7bde2; 
+    padding: 20px; 
+    text-align: center; 
+    color: #4a235a; 
